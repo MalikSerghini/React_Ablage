@@ -3,6 +3,8 @@ import Tooltip from "./components/Tooltip"
 
 import Icon_Einheiten_Anwendungen from "./assets/icons/einheiten/Icon_Einheiten_Anwendungen"
 import Icon_Einheiten_Komponenten from "./assets/icons/einheiten/Icon_Einheiten_Komponenten"
+import Icon_Infrastruktur_Anlagengruppen from "./assets/icons/infrastruktur/Icon_Infrastruktur_Anlagengruppen"
+import Icon_Sonstiges_Hilfe from "./assets/icons/sonstiges/Icon_Sonstiges_Hilfe"
 
 import { useRef } from "react"
 
@@ -58,6 +60,10 @@ export default function App() {
     <Icon_Einheiten_Anwendungen width={16} height={16} color="green"/>
     
     <Icon_Einheiten_Komponenten width={16} height={16} color="green"/>
+
+    <Icon_Infrastruktur_Anlagengruppen width={16} height={16} color="green"/>
+
+    <Icon_Sonstiges_Hilfe width={16} height={16} color="green"/>
 
     <p className="flex items-center">
 
